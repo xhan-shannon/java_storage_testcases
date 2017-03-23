@@ -1,0 +1,11 @@
+Design test cases for a storage array. The array has the following functionalities:
+    . Create one or multiple LUN's.
+    . Resize (expand) a LUN.
+    . Export a LUN to a host.
+    . Un-export a LUN.
+    . Remove an un-exported LUN.
+    . Retrieve the information(size, export) of a LUN.
+    . Concurrent requests is supported.
+    . Performance is not impacted no matter how many LUN's are created and exported.
+
+
